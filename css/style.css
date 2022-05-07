@@ -1,0 +1,261 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgba(255, 191, 0, 0.6);
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-around;
+    height: 11vh;
+    z-index: 10;
+}
+
+.div1 {
+    display: flex;
+    align-items: center;
+    margin: 2px 0px 2px -57px;
+    padding: 2px 10px;
+}
+
+#MainImage:hover {
+    box-shadow: 10px 5px 5px red;
+    color: rgb(128, 108, 24);
+}
+
+#MainImage {
+    height: 61px;
+    width: 84px;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+.div2 {
+    display: flex;
+    align-items: center;
+    margin: 5px -190px;
+    padding: 2px 10px;
+    border: 2px solid;
+    background-color: rgba(255, 191, 0, 0.6);
+    cursor: pointer;
+
+    transition-duration: 0.5s;
+}
+
+.div2:hover {
+    box-shadow: 10px 5px 5px red;
+    color: rgb(128, 108, 24);
+}
+
+.location {
+    font-size: xx-large;
+    margin: 0px 0px 3px 0px;
+    padding: 0px;
+    width: 38px;
+
+}
+
+.addresstext {
+    color: black
+}
+
+#at1 {
+    font-size: small;
+}
+
+#at2 {
+    font-weight: bolder;
+    font-size: medium;
+}
+
+.div3 {
+    display: flex;
+    margin: 0px -376px 0px 0px;
+    align-items: center;
+    padding: 12px;
+
+}
+
+#products {
+    width: 47px;
+    height: 43px;
+    background-color: #fff0f09e;
+    border: 2px solid;
+    cursor: pointer;
+
+
+
+}
+
+#searchbar {
+    width: 600px;
+    height: 40px;
+    background-color: #00ffc3;
+    background-image: url(/Projects/img/Search_Icon.svg.png);
+
+    background-size: 40px;
+    background-position: right;
+    background-repeat: no-repeat;
+    border: 2px solid;
+    cursor: pointer;
+
+
+}
+
+.div4 {
+    margin: 0px -275px 0px 320px;
+    display: flex;
+    align-items: center;
+}
+
+
+#countrySeection {
+    width: 70px;
+    height: 30px;
+    background-color: rgba(255, 191, 0, 0.6);
+    border: 2px solid black;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+#countrySeection:hover {
+    box-shadow: 10px 5px 5px red;
+    color: rgb(128, 108, 24);
+
+}
+
+.div5 {
+    display: flex;
+    align-items: center;
+    margin: 0px -124px 0px -148px;
+}
+
+#loginbutton {
+    border: 2px solid;
+    background-color: rgba(255, 191, 0, 0.6);
+    transition-duration: 0.5s;
+    width: 100px;
+    height: 30px;
+    font-size: medium;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+#loginbutton:hover {
+    box-shadow: 10px 5px 5px red;
+    color: rgb(128, 108, 24);
+}
+
+.div6 {
+    display: flex;
+    align-items: center;
+    margin: 0px -81px 0px 25px;
+}
+
+.Pcart {
+    border: 2px solid;
+    width: 60px;
+    background-color: rgba(255, 191, 0, 0.6);
+    transition-duration: 0.5s;
+    padding: 4px 14px;
+    font-weight: bold;
+    font-size: medium;
+    cursor: pointer;
+}
+
+.Pcart:hover {
+
+    box-shadow: 10px 5px 5px red;
+    color: rgb(128, 108, 24);
+}
+
+main {
+    background-color: cornsilk;
+   
+    
+}
+
+.container {
+    min-height: calc(100vh - 11vh - 12vh);
+}
+
+.slider {
+
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    align-items:center;
+}
+
+.slider img {
+    width: 800px;
+
+    height: 300px;
+}
+
+.card {
+    margin: auto;
+    max-width: 92vw;
+
+
+}
+
+.categories {
+    padding: 10px;
+    background-color: rgba(244, 177, 216, 0.779);
+    margin-bottom: 6px;
+    margin-top: 10px;
+}
+
+.itemsection {
+    display: flex;
+    background-color: lemonchiffon;
+    overflow: scroll;
+}
+
+.carditem {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 12vw;
+    /* background-color: cornsilk; */
+}
+
+.carditemimg {
+    margin: auto;
+    padding: 6px;
+    transition-duration: 0.5s;
+}
+
+.carditemimg:hover {
+    background-color: rgb(214, 214, 190);
+}
+
+.imgsize {
+    width: 160px;
+    height: 160px;
+}
+
+.card.name.details {
+
+    margin: 3px;
+}
+
+.card.name.details p {
+    margin: 4px;
+}
+
+footer {
+    width: 100vw;
+    height: 12vh;
+    background-color: rgba(255, 191, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
